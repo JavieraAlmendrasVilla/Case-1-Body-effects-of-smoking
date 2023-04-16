@@ -1,6 +1,6 @@
 # Body effects of moking
 
-*code:* [Smoking-data](https://github.com/JavieraAlmendrasVilla/Data-Analyst-Portfolio/blob/main/smoking.R)<br>
+*code:* [Smoking-data](https://github.com/JavieraAlmendrasVilla/Case-1-Body-effects-of-smoking/blob/main/smoking.R)<br>
 *source:* [Goverment of South Korea](https://www.kaggle.com/datasets/kukuroo3/body-signal-of-smoking)<br>
 
 **Description:** The entire dataset contains health data with a total of 55692 observations and 27 variables. For this project, I specifically investigated the variables related to oral health.<br>
@@ -90,11 +90,11 @@ dist_gender <- ggplot(oral_dt, aes(gender, color = factor(gender), fill = factor
 
 **Distribution of the sample per gender**
 
-![Distribution of the sample per gender](https://github.com/JavieraAlmendrasVilla/Data-Analyst-Portfolio/blob/main/Dist%20per%20gender.jpeg)
+![Distribution of the sample per gender](https://github.com/JavieraAlmendrasVilla/Case-1-Body-effects-of-smoking/blob/main/Dist%20per%20gender.jpeg)
 
 This boxplot shows the difference between the mean age of females and males
 
-![difference in mean ages](https://github.com/JavieraAlmendrasVilla/Data-Analyst-Portfolio/blob/main/boxplot%20gender.jpeg)
+![difference in mean ages](https://github.com/JavieraAlmendrasVilla/Case-1-Body-effects-of-smoking/blob/main/boxplot%20gender.jpeg)
 
 Furthermore, I tested the statistical significance of the mean age using the Welch-test.
 
@@ -125,11 +125,11 @@ ages_plot/women_plot/men_plot
 ```
 **Distribution of Ages per Gender**
 
-![Distribution of ages per Gender](https://github.com/JavieraAlmendrasVilla/Data-Analyst-Portfolio/blob/main/smoking-3_age_distr.jpeg)
+![Distribution of ages per Gender](https://github.com/JavieraAlmendrasVilla/Case-1-Body-effects-of-smoking/blob/main/smoking-3_age_distr.jpeg)
 
 **Distribution of the Number of Smokers per Gender**
 
-![smokers per gender](https://github.com/JavieraAlmendrasVilla/Data-Analyst-Portfolio/blob/main/smoking-plot_smokers_per_gender.jpeg)
+![smokers per gender](https://github.com/JavieraAlmendrasVilla/Case-1-Body-effects-of-smoking/blob/main/smoking-plot_smokers_per_gender.jpeg)
 
 
 Moreover, I anlized the prevalence of Caries per gender
@@ -140,7 +140,7 @@ caries_per_gender <- ggplot(oral_dt, aes(caries, color = factor(caries), fill = 
 
 **Distribution of Caries per Gender**
 
-![caries per gender](https://github.com/JavieraAlmendrasVilla/Data-Analyst-Portfolio/blob/main/smoking-caries_per_gender.jpeg)
+![caries per gender](https://github.com/JavieraAlmendrasVilla/Case-1-Body-effects-of-smoking/blob/main/smoking-caries_per_gender.jpeg)
 
 The plots show a similar prevalence of caries among both genders. Therefore, I applied the Fisher test to examine the likelihood that one gender is more likely to develop caries.
 
@@ -179,7 +179,7 @@ smoking_caries <- ggplot(oral_dt, aes(caries, color = factor(caries), fill = fac
 
 ```
 
-![caries on smoking](https://github.com/JavieraAlmendrasVilla/Data-Analyst-Portfolio/blob/main/smoking-plot_caries_on_smoking.jpeg)
+![caries on smoking](https://github.com/JavieraAlmendrasVilla/Case-1-Body-effects-of-smoking/blob/main/smoking-plot_caries_on_smoking.jpeg)
 
 The plots show that the number of individuals with caries among smokers and non-smokers is similar, although the proportion of non-smokers without caries is much larger. I applied the Fisher test to compare the likelihood of having caries between both samples.
 
@@ -211,4 +211,4 @@ odds ratio
 
 The test supports the hypothesis that there is a significant association between smoking and the development of caries, with smokers being more likely to have caries compared to non-smokers.
 
-see the [*full code*](https://github.com/JavieraAlmendrasVilla/Data-Analyst-Portfolio/blob/main/smoking.R)
+see the [*full code*](https://github.com/JavieraAlmendrasVilla/Case-1-Body-effects-of-smoking/blob/main/smoking.R)
