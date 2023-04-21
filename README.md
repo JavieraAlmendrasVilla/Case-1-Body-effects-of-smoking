@@ -1,4 +1,4 @@
-# Body effects of moking
+# Analysis of oral data
 
 *code:* [Smoking-data](https://github.com/JavieraAlmendrasVilla/Case-1-Body-effects-of-smoking/blob/main/smoking.R)<br>
 *source:* [Goverment of South Korea](https://www.kaggle.com/datasets/kukuroo3/body-signal-of-smoking)<br>
